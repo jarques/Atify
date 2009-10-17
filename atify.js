@@ -13,7 +13,6 @@ $.fn.atify = function(customOptions){
 	var html = $(this).html();
 	html = html.replace(/@([A-Za-z0-9_]+)/gi,"@<a href=\"http://twitter.com/$1\">$1</a>");
 	if(options.hashtag){
-	    console.log("running hashtag");
 	    html = html.replace(/#([A-Za-z0-9_-]+)/gi,"<a href=\"http://twitter.com/#search?q=%22$1%22\">#$1</a>");
 	}
 	$(this).html(html);
