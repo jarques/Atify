@@ -1,9 +1,11 @@
 /*
+*
 *	@tify v1 by Jarques  -  jpretorius.com
 *	Follow me @jarques - http://twitter.com/@jarques
 *	------------------------------------------------
 *	Modified by MeltingIce - meltingice.net
 *	Follow me @meltingice - http://twitter.com/meltingice
+*
 */
 
 $.fn.atify = function(customOptions){
