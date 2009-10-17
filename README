@@ -1,3 +1,9 @@
 Atify - automatically link @twitter names in an element.
 
 With jQuery installed. Download it here, or use the script below.
+
+_________________________________________________________________
+
+Converting hashtags to links is disabled by default.  In order to enable this functionality, call the atify function like such:
+
+$("#divname").atify({hashtag:true});
