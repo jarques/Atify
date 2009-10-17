@@ -28,7 +28,3 @@ $.fn.atify.defaultOptions = {
 	'hashtag': false,
 	'extras': false
 }
-
-//http://twitter.com/?status=%40
-// 
-// 
